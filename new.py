@@ -1,4 +1,4 @@
-# class laptop():
+class laptop():
     def __init__(self,company,model,price,ram):
         self.a=company
         self.b=model
@@ -35,7 +35,7 @@ sant=car(cc,cy,cr,cp)
 sant.vehicle()
 
 
-#single Inheritance
+# ✨ single Inheritance ✨
 
 
 class parent:
@@ -49,7 +49,7 @@ a.parentclass()
 a.childclass()
 
 
-#Multiple inheritance
+# ✨ Multiple inheritance  ✨
 
 
 class father:
@@ -67,7 +67,7 @@ c.motherclass()
 c.childclass()
 
 
-# Multi level inheritance
+# ✨ Multi level inheritance ✨
 
 
 class grandfather:
@@ -84,7 +84,7 @@ c.gf()
 c.fa()
 c.ch()
 
-#Hierarchal inheritance
+# ✨ Hierarchal inheritance ✨
 
 class parent:
     def parentclass(self):
